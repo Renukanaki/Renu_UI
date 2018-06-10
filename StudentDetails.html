@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title>Student Info</title>
+        <link rel="icon" href="img/favicon.ico" >
+    </head>
+    <body style="background: skyblue">
+        <h1>Student Details</h1>
+        <hr>
+        <form>
+            <fieldset>
+                <legend>Student Information</legend>
+                <label for="StudFName">First Name*  : </label><input type="text" id="StudFName" required><br><br><br>
+                <label for="StudLName">Last Name* : </label><input type="text" id="StudLName" required><br><br><br>
+                <label for="DOB">Date of Birth* : </label><input type="date" id="DOB" required><br><br><br>
+                <label for="SGender">Gender : </label>Male<input type="radio" id="SGender">
+                <label for="SGender"></label>Female<input type="radio" id="SGender"><br><br><br>
+                <label for="SAdrr">Postal Address* :</label><input type="text" id="SAdrr" required><br><br><br>
+                <label for="SEmail">Email : </label><input type="text" id="SEmail" placeholder="abc@gmail.com" required><br><br><br>
+                <label for="EmergCont">Emergency Contact Details *:</label><input type="tel" id="EmergCont" required><br><br><br>
+                <label for="prefCont">Prefered method of contact :</label><input type="checkbox" value="email" id="PrefCont">Email
+                                                                          <input type="checkbox" value="Phone" id="PrefCont">Phone
+                                                                          <input type="checkbox" value="Mail" id="PrefCont">Mail
+                <br><br><br>
+                <label for="Allergy">Allergies :</label><input type="checkbox" value="Peanut" >Peanut
+                                                        <input type="checkbox" value="Treenut" >Treenut
+                                                        <input type="checkbox" value="Asthama" >Asthama
+
+               <br><br><br>
+               <label for="comment">Anything we should know about :</label><br>
+               <textarea placeholder="Enter text here" rows="5" cols="50"></textarea>
+               <br><br><br>
+
+                <button type="submit" >Submit</button>
+                <button type="reset" >Reset</button>
+                
+            
+            </fieldset>
+        </form>
+    </body>
+</html>
